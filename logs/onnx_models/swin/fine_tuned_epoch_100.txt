@@ -1,0 +1,102 @@
+# python converter.py -mp $(pwd)/out/SWIN/100_2022-10-03-21-42-58/model/
+/opt/conda/lib/python3.9/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646755888534/work/aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:303: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if num_channels != self.num_channels:
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:293: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if width % self.patch_size[1] != 0:
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:296: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if height % self.patch_size[0] != 0:
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:602: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if min(input_resolution) <= self.window_size:
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:212: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  batch_size, height // window_size, window_size, width // window_size, window_size, num_channels
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:223: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  windows = windows.view(-1, height // window_size, width // window_size, window_size, window_size, num_channels)
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:688: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  was_padded = pad_values[3] > 0 or pad_values[5] > 0
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:689: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if was_padded:
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:482: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  batch_size // mask_shape, mask_shape, self.num_attention_heads, dim, dim
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:747: UserWarning: __floordiv__ is deprecated, and its behavior will change in a future version of pytorch. It currently rounds toward 0 (like the 'trunc' function NOT 'floor'). This results in incorrect rounding for negative values. To keep the current behavior, use torch.div(a, b, rounding_mode='trunc'), or for actual floor division, use torch.div(a, b, rounding_mode='floor').
+  height_downsampled, width_downsampled = (height + 1) // 2, (width + 1) // 2
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:338: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  should_pad = (height % 2 == 1) or (width % 2 == 1)
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:339: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  if should_pad:
+/opt/conda/lib/python3.9/site-packages/transformers/models/swin/modeling_swin.py:605: TracerWarning: Converting a tensor to a Python boolean might cause the trace to be incorrect. We can't record the data flow of Python values, so this value will be treated as a constant in the future. This means that the trace might not generalize to other inputs!
+  self.window_size = min(input_resolution)
+Resolving data files: 100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1000/1000 [00:00<00:00, 195538.65it/s]
+Using custom data configuration default-0457705da11e039f
+Reusing dataset imagefolder (/root/.cache/huggingface/datasets/imagefolder/default-0457705da11e039f/0.0.0/48efdc62d40223daee675ca093d163bcb6cb0b7d7f93eb25aebf5edca72dc597)
+100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1/1 [00:00<00:00, 107.27it/s]
+Loading cached processed dataset at /root/.cache/huggingface/datasets/imagefolder/default-0457705da11e039f/0.0.0/48efdc62d40223daee675ca093d163bcb6cb0b7d7f93eb25aebf5edca72dc597/cache-7de29a718a59cffc.arrow
+Misclassified image #1 [{'score': 1.0, 'label': 'GP'}, {'score': 4.1630116243140947e-08, 'label': 'GN'}] GN/2015_107284_1.jpg
+Misclassified image #2 [{'score': 1.0, 'label': 'GP'}, {'score': 5.110597722790544e-09, 'label': 'GN'}] GN/2015_109763_1.jpg
+Misclassified image #3 [{'score': 1.0, 'label': 'GP'}, {'score': 1.1373043479201428e-10, 'label': 'GN'}] GN/2015_109763_2.jpg
+Misclassified image #4 [{'score': 1.0, 'label': 'GP'}, {'score': 4.5285999950017697e-10, 'label': 'GN'}] GN/2015_109763_3.jpg
+Misclassified image #5 [{'score': 1.0, 'label': 'GP'}, {'score': 5.0876185042625366e-08, 'label': 'GN'}] GN/2015_109763_4.jpg
+Misclassified image #6 [{'score': 0.9999964237213135, 'label': 'GP'}, {'score': 3.620442839746829e-06, 'label': 'GN'}] GN/2015_109763_5.jpg
+Misclassified image #7 [{'score': 0.9999986886978149, 'label': 'GP'}, {'score': 1.3345303386813612e-06, 'label': 'GN'}] GN/2015_110456_0.jpg
+Misclassified image #8 [{'score': 0.9999964237213135, 'label': 'GP'}, {'score': 3.6150088362774113e-06, 'label': 'GN'}] GN/2015_110922_0.jpg
+Misclassified image #9 [{'score': 0.9999997615814209, 'label': 'GP'}, {'score': 1.9074026624821272e-07, 'label': 'GN'}] GN/2015_113184_2.jpg
+Misclassified image #10 [{'score': 1.0, 'label': 'GP'}, {'score': 1.5366177219533483e-09, 'label': 'GN'}] GN/2015_117634_1.jpg
+Misclassified image #11 [{'score': 1.0, 'label': 'GP'}, {'score': 1.5441707634789026e-10, 'label': 'GN'}] GN/2015_117634_2.jpg
+Misclassified image #12 [{'score': 1.0, 'label': 'GP'}, {'score': 3.7104055383707646e-09, 'label': 'GN'}] GN/2015_122407_1.jpg
+Misclassified image #13 [{'score': 0.9999997615814209, 'label': 'GP'}, {'score': 2.3682835603722197e-07, 'label': 'GN'}] GN/2015_122407_2.jpg
+Misclassified image #14 [{'score': 1.0, 'label': 'GP'}, {'score': 2.420162203975451e-08, 'label': 'GN'}] GN/2015_126082_1.jpg
+Misclassified image #15 [{'score': 1.0, 'label': 'GP'}, {'score': 8.280865992915665e-10, 'label': 'GN'}] GN/2015_127214_1.jpg
+Misclassified image #16 [{'score': 1.0, 'label': 'GP'}, {'score': 9.777519238696186e-09, 'label': 'GN'}] GN/2015_127214_2.jpg
+Misclassified image #17 [{'score': 0.9999998807907104, 'label': 'GP'}, {'score': 6.977744959613119e-08, 'label': 'GN'}] GN/2016_109627_2.jpg
+Misclassified image #18 [{'score': 0.999962329864502, 'label': 'GP'}, {'score': 3.7616384361172095e-05, 'label': 'GN'}] GN/2016_109873_1.jpg
+Misclassified image #19 [{'score': 1.0, 'label': 'GP'}, {'score': 9.731396133361159e-09, 'label': 'GN'}] GN/2016_109873_3.jpg
+Misclassified image #20 [{'score': 0.9998588562011719, 'label': 'GN'}, {'score': 0.00014117141836322844, 'label': 'GP'}] GP/2015_101724_0.jpg
+Misclassified image #21 [{'score': 1.0, 'label': 'GN'}, {'score': 1.3053630176784736e-08, 'label': 'GP'}] GP/2015_103161_0.jpg
+Misclassified image #22 [{'score': 1.0, 'label': 'GN'}, {'score': 1.2577640262634304e-08, 'label': 'GP'}] GP/2015_103161_1.jpg
+Misclassified image #23 [{'score': 1.0, 'label': 'GN'}, {'score': 3.0928674732422223e-08, 'label': 'GP'}] GP/2015_103161_2.jpg
+Misclassified image #24 [{'score': 1.0, 'label': 'GN'}, {'score': 9.986540483453155e-09, 'label': 'GP'}] GP/2015_104336_0.jpg
+Misclassified image #25 [{'score': 1.0, 'label': 'GN'}, {'score': 1.9971071907320948e-08, 'label': 'GP'}] GP/2015_104336_1.jpg
+Misclassified image #26 [{'score': 1.0, 'label': 'GN'}, {'score': 2.4189104053107258e-09, 'label': 'GP'}] GP/2015_104336_2.jpg
+Misclassified image #27 [{'score': 0.9999947547912598, 'label': 'GN'}, {'score': 5.224612777965376e-06, 'label': 'GP'}] GP/2015_106684_0.jpg
+Misclassified image #28 [{'score': 0.9999994039535522, 'label': 'GN'}, {'score': 5.820235742248769e-07, 'label': 'GP'}] GP/2015_106684_2.jpg
+Misclassified image #29 [{'score': 0.7078896760940552, 'label': 'GN'}, {'score': 0.29211029410362244, 'label': 'GP'}] GP/2015_107051_0.jpg
+Misclassified image #30 [{'score': 0.9999970197677612, 'label': 'GN'}, {'score': 2.935672227977193e-06, 'label': 'GP'}] GP/2015_107411_0.jpg
+Misclassified image #31 [{'score': 0.9999983310699463, 'label': 'GN'}, {'score': 1.6843961248014239e-06, 'label': 'GP'}] GP/2015_107411_1.jpg
+Misclassified image #32 [{'score': 0.9999797344207764, 'label': 'GN'}, {'score': 2.0295407011872157e-05, 'label': 'GP'}] GP/2015_107411_2.jpg
+Misclassified image #33 [{'score': 1.0, 'label': 'GN'}, {'score': 4.413198695374376e-08, 'label': 'GP'}] GP/2015_107829_1.jpg
+Misclassified image #34 [{'score': 0.7078896760940552, 'label': 'GN'}, {'score': 0.29211029410362244, 'label': 'GP'}] GP/2015_107829_2.jpg
+Misclassified image #35 [{'score': 0.9998536109924316, 'label': 'GN'}, {'score': 0.00014632129750680178, 'label': 'GP'}] GP/2015_107930_0.jpg
+Misclassified image #36 [{'score': 0.9760112762451172, 'label': 'GN'}, {'score': 0.023988736793398857, 'label': 'GP'}] GP/2015_108598_0.jpg
+Misclassified image #37 [{'score': 1.0, 'label': 'GN'}, {'score': 2.039691970878721e-08, 'label': 'GP'}] GP/2015_109565_0.jpg
+Misclassified image #38 [{'score': 0.9999992847442627, 'label': 'GN'}, {'score': 7.73307760937314e-07, 'label': 'GP'}] GP/2015_109565_1.jpg
+Misclassified image #39 [{'score': 0.99648118019104, 'label': 'GN'}, {'score': 0.0035187569446861744, 'label': 'GP'}] GP/2015_109565_2.jpg
+Misclassified image #40 [{'score': 0.9990662932395935, 'label': 'GN'}, {'score': 0.0009336993680335581, 'label': 'GP'}] GP/2015_110255_3.jpg
+Misclassified image #41 [{'score': 0.9999997615814209, 'label': 'GN'}, {'score': 2.224645925252844e-07, 'label': 'GP'}] GP/2015_110374_0.jpg
+Misclassified image #42 [{'score': 0.9999998807907104, 'label': 'GN'}, {'score': 1.018001540842306e-07, 'label': 'GP'}] GP/2015_110374_1.jpg
+Misclassified image #43 [{'score': 0.9999998807907104, 'label': 'GN'}, {'score': 6.737376878618306e-08, 'label': 'GP'}] GP/2015_110374_2.jpg
+Misclassified image #44 [{'score': 1.0, 'label': 'GN'}, {'score': 4.9995698248039844e-08, 'label': 'GP'}] GP/2015_110374_3.jpg
+Misclassified image #45 [{'score': 0.9999998807907104, 'label': 'GN'}, {'score': 1.5433985822710383e-07, 'label': 'GP'}] GP/2015_110868_0.jpg
+Misclassified image #46 [{'score': 0.9999998807907104, 'label': 'GN'}, {'score': 1.5433985822710383e-07, 'label': 'GP'}] GP/2015_110868_2.jpg
+Misclassified image #47 [{'score': 0.9999996423721313, 'label': 'GN'}, {'score': 4.0835905679159623e-07, 'label': 'GP'}] GP/2015_111250_0.jpg
+Misclassified image #48 [{'score': 0.9998600482940674, 'label': 'GN'}, {'score': 0.00013998735812492669, 'label': 'GP'}] GP/2015_111250_2.jpg
+Misclassified image #49 [{'score': 0.9999728202819824, 'label': 'GN'}, {'score': 2.71988392341882e-05, 'label': 'GP'}] GP/2015_111753_0.jpg
+Misclassified image #50 [{'score': 0.9999991655349731, 'label': 'GN'}, {'score': 8.722437314645504e-07, 'label': 'GP'}] GP/2015_112628_0.jpg
+Misclassified image #51 [{'score': 0.9842649698257446, 'label': 'GN'}, {'score': 0.0157349593937397, 'label': 'GP'}] GP/2015_112693_1.jpg
+Misclassified image #52 [{'score': 0.9769211411476135, 'label': 'GN'}, {'score': 0.02307886630296707, 'label': 'GP'}] GP/2015_112693_2.jpg
+Misclassified image #53 [{'score': 0.9999988079071045, 'label': 'GN'}, {'score': 1.1981652505710372e-06, 'label': 'GP'}] GP/2015_112833_0.jpg
+Misclassified image #54 [{'score': 0.9999943971633911, 'label': 'GN'}, {'score': 5.66027665627189e-06, 'label': 'GP'}] GP/2015_113219_0.jpg
+Misclassified image #55 [{'score': 0.9228182435035706, 'label': 'GN'}, {'score': 0.07718177884817123, 'label': 'GP'}] GP/2015_113219_2.jpg
+Misclassified image #56 [{'score': 0.9999998807907104, 'label': 'GN'}, {'score': 8.682751939659283e-08, 'label': 'GP'}] GP/2015_113517_0.jpg
+Misclassified image #57 [{'score': 0.9999996423721313, 'label': 'GN'}, {'score': 2.9866441764170304e-07, 'label': 'GP'}] GP/2015_114018_1.jpg
+Misclassified image #58 [{'score': 1.0, 'label': 'GN'}, {'score': 2.9253484967739496e-08, 'label': 'GP'}] GP/2015_114451_0.jpg
+Misclassified image #59 [{'score': 0.998784601688385, 'label': 'GN'}, {'score': 0.001215455704368651, 'label': 'GP'}] GP/2015_114451_1.jpg
+Misclassified image #60 [{'score': 0.9952902793884277, 'label': 'GN'}, {'score': 0.004709701985120773, 'label': 'GP'}] GP/2015_115108_0.jpg
+Misclassified image #61 [{'score': 0.9999998807907104, 'label': 'GN'}, {'score': 1.1709452252262054e-07, 'label': 'GP'}] GP/2015_115812_0.jpg
+Misclassified image #62 [{'score': 0.9617528915405273, 'label': 'GN'}, {'score': 0.03824705630540848, 'label': 'GP'}] GP/2015_115812_2.jpg
+Misclassified image #63 [{'score': 0.9999997615814209, 'label': 'GN'}, {'score': 1.8099132148563513e-07, 'label': 'GP'}] GP/2015_116485_1.jpg
+Misclassified image #64 [{'score': 1.0, 'label': 'GN'}, {'score': 3.074804055813729e-08, 'label': 'GP'}] GP/2015_116485_2.jpg
+Misclassified image #65 [{'score': 0.9950724244117737, 'label': 'GN'}, {'score': 0.0049275062046945095, 'label': 'GP'}] GP/2015_116485_3.jpg
+Elapsed Time:  228.93078446388245
+Total count of misclassified images: 65
+Accuracy: 93.4 %

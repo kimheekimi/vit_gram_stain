@@ -1,0 +1,74 @@
+# python quantizer.py -mp $(pwd)/out/BEIT/1_2022-09-26-23-22-59/model/
+Resolving data files: 100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1000/1000 [00:00<00:00, 99116.29it/s]
+WARNING:datasets.builder:Using custom data configuration default-0457705da11e039f
+WARNING:datasets.builder:Reusing dataset imagefolder (/root/.cache/huggingface/datasets/imagefolder/default-0457705da11e039f/0.0.0/48efdc62d40223daee675ca093d163bcb6cb0b7d7f93eb25aebf5edca72dc597)
+100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1/1 [00:00<00:00, 131.69it/s]
+WARNING:datasets.arrow_dataset:Loading cached processed dataset at /root/.cache/huggingface/datasets/imagefolder/default-0457705da11e039f/0.0.0/48efdc62d40223daee675ca093d163bcb6cb0b7d7f93eb25aebf5edca72dc597/cache-7de29a718a59cffc.arrow
+Misclassified image #1 [{'score': 0.6290479898452759, 'label': 'GP'}, {'score': 0.37095198035240173, 'label': 'GN'}] GN/2015_106542_2.jpg
+Misclassified image #2 [{'score': 0.6883115172386169, 'label': 'GP'}, {'score': 0.31168851256370544, 'label': 'GN'}] GN/2015_106628_2.jpg
+Misclassified image #3 [{'score': 0.8964710831642151, 'label': 'GP'}, {'score': 0.10352891683578491, 'label': 'GN'}] GN/2015_107284_1.jpg
+Misclassified image #4 [{'score': 0.6228170394897461, 'label': 'GP'}, {'score': 0.3771830201148987, 'label': 'GN'}] GN/2015_108342_0.jpg
+Misclassified image #5 [{'score': 0.665471613407135, 'label': 'GP'}, {'score': 0.3345283269882202, 'label': 'GN'}] GN/2015_109763_0.jpg
+Misclassified image #6 [{'score': 0.9621226787567139, 'label': 'GP'}, {'score': 0.03787737712264061, 'label': 'GN'}] GN/2015_109763_1.jpg
+Misclassified image #7 [{'score': 0.981476366519928, 'label': 'GP'}, {'score': 0.01852366514503956, 'label': 'GN'}] GN/2015_109763_2.jpg
+Misclassified image #8 [{'score': 0.987387478351593, 'label': 'GP'}, {'score': 0.012612514197826385, 'label': 'GN'}] GN/2015_109763_3.jpg
+Misclassified image #9 [{'score': 0.7727100253105164, 'label': 'GP'}, {'score': 0.22728992998600006, 'label': 'GN'}] GN/2015_109763_4.jpg
+Misclassified image #10 [{'score': 0.9775218963623047, 'label': 'GP'}, {'score': 0.022478125989437103, 'label': 'GN'}] GN/2015_109763_5.jpg
+Misclassified image #11 [{'score': 0.5070297718048096, 'label': 'GP'}, {'score': 0.49297022819519043, 'label': 'GN'}] GN/2015_109925_1.jpg
+Misclassified image #12 [{'score': 0.5976664423942566, 'label': 'GP'}, {'score': 0.402333527803421, 'label': 'GN'}] GN/2015_110695_1.jpg
+Misclassified image #13 [{'score': 0.5467783212661743, 'label': 'GP'}, {'score': 0.4532216787338257, 'label': 'GN'}] GN/2015_111229_0.jpg
+Misclassified image #14 [{'score': 0.7939391732215881, 'label': 'GP'}, {'score': 0.20606081187725067, 'label': 'GN'}] GN/2015_111229_3.jpg
+Misclassified image #15 [{'score': 0.9811918139457703, 'label': 'GP'}, {'score': 0.018808171153068542, 'label': 'GN'}] GN/2015_111287_0.jpg
+Misclassified image #16 [{'score': 0.7679703831672668, 'label': 'GP'}, {'score': 0.23202967643737793, 'label': 'GN'}] GN/2015_112502_0.jpg
+Misclassified image #17 [{'score': 0.6542666554450989, 'label': 'GP'}, {'score': 0.34573331475257874, 'label': 'GN'}] GN/2015_112502_1.jpg
+Misclassified image #18 [{'score': 0.5460877418518066, 'label': 'GP'}, {'score': 0.45391222834587097, 'label': 'GN'}] GN/2015_112502_2.jpg
+Misclassified image #19 [{'score': 0.7422724366188049, 'label': 'GP'}, {'score': 0.2577275037765503, 'label': 'GN'}] GN/2015_113184_2.jpg
+Misclassified image #20 [{'score': 0.8774579167366028, 'label': 'GP'}, {'score': 0.12254207581281662, 'label': 'GN'}] GN/2015_114062_1.jpg
+Misclassified image #21 [{'score': 0.8200409412384033, 'label': 'GP'}, {'score': 0.17995908856391907, 'label': 'GN'}] GN/2015_114062_2.jpg
+Misclassified image #22 [{'score': 0.8397125005722046, 'label': 'GP'}, {'score': 0.16028746962547302, 'label': 'GN'}] GN/2015_114490_1.jpg
+Misclassified image #23 [{'score': 0.5873682498931885, 'label': 'GP'}, {'score': 0.4126317799091339, 'label': 'GN'}] GN/2015_116698_1.jpg
+Misclassified image #24 [{'score': 0.8921836018562317, 'label': 'GP'}, {'score': 0.10781645029783249, 'label': 'GN'}] GN/2015_117634_1.jpg
+Misclassified image #25 [{'score': 0.947780191898346, 'label': 'GP'}, {'score': 0.05221986025571823, 'label': 'GN'}] GN/2015_117634_2.jpg
+Misclassified image #26 [{'score': 0.7118107676506042, 'label': 'GP'}, {'score': 0.28818926215171814, 'label': 'GN'}] GN/2015_117974_2.jpg
+Misclassified image #27 [{'score': 0.6917015910148621, 'label': 'GP'}, {'score': 0.3082984387874603, 'label': 'GN'}] GN/2015_121186_1.jpg
+Misclassified image #28 [{'score': 0.8616209626197815, 'label': 'GP'}, {'score': 0.1383790820837021, 'label': 'GN'}] GN/2015_122407_1.jpg
+Misclassified image #29 [{'score': 0.5611382126808167, 'label': 'GP'}, {'score': 0.43886178731918335, 'label': 'GN'}] GN/2015_123095_1.jpg
+Misclassified image #30 [{'score': 0.7413557767868042, 'label': 'GP'}, {'score': 0.2586442530155182, 'label': 'GN'}] GN/2015_123243_0.jpg
+Misclassified image #31 [{'score': 0.8741768598556519, 'label': 'GP'}, {'score': 0.12582311034202576, 'label': 'GN'}] GN/2015_123243_1.jpg
+Misclassified image #32 [{'score': 0.8689863085746765, 'label': 'GP'}, {'score': 0.1310136616230011, 'label': 'GN'}] GN/2015_123740_1.jpg
+Misclassified image #33 [{'score': 0.957159698009491, 'label': 'GP'}, {'score': 0.042840275913476944, 'label': 'GN'}] GN/2015_123740_2.jpg
+Misclassified image #34 [{'score': 0.8357707858085632, 'label': 'GP'}, {'score': 0.16422925889492035, 'label': 'GN'}] GN/2015_125317_0.jpg
+Misclassified image #35 [{'score': 0.9774970412254333, 'label': 'GP'}, {'score': 0.022502969950437546, 'label': 'GN'}] GN/2015_125317_2.jpg
+Misclassified image #36 [{'score': 0.8358877301216125, 'label': 'GP'}, {'score': 0.16411224007606506, 'label': 'GN'}] GN/2015_125317_4.jpg
+Misclassified image #37 [{'score': 0.6510440111160278, 'label': 'GP'}, {'score': 0.34895601868629456, 'label': 'GN'}] GN/2015_125958_0.jpg
+Misclassified image #38 [{'score': 0.6855887770652771, 'label': 'GP'}, {'score': 0.3144111931324005, 'label': 'GN'}] GN/2015_126082_2.jpg
+Misclassified image #39 [{'score': 0.9280223846435547, 'label': 'GP'}, {'score': 0.07197757810354233, 'label': 'GN'}] GN/2015_127214_1.jpg
+Misclassified image #40 [{'score': 0.6948801279067993, 'label': 'GP'}, {'score': 0.30511993169784546, 'label': 'GN'}] GN/2015_127214_2.jpg
+Misclassified image #41 [{'score': 0.9189951419830322, 'label': 'GP'}, {'score': 0.081004798412323, 'label': 'GN'}] GN/2016_109035_1.jpg
+Misclassified image #42 [{'score': 0.9602534770965576, 'label': 'GP'}, {'score': 0.039746567606925964, 'label': 'GN'}] GN/2016_109035_2.jpg
+Misclassified image #43 [{'score': 0.9650435447692871, 'label': 'GP'}, {'score': 0.03495645150542259, 'label': 'GN'}] GN/2016_109035_3.jpg
+Misclassified image #44 [{'score': 0.6909299492835999, 'label': 'GP'}, {'score': 0.30907008051872253, 'label': 'GN'}] GN/2016_109627_0.jpg
+Misclassified image #45 [{'score': 0.9831016659736633, 'label': 'GP'}, {'score': 0.01689830981194973, 'label': 'GN'}] GN/2016_109627_2.jpg
+Misclassified image #46 [{'score': 0.6781728863716125, 'label': 'GP'}, {'score': 0.32182711362838745, 'label': 'GN'}] GN/2016_109873_3.jpg
+Misclassified image #47 [{'score': 0.7111945748329163, 'label': 'GP'}, {'score': 0.28880545496940613, 'label': 'GN'}] GN/2016_110832_3.jpg
+Misclassified image #48 [{'score': 0.901372492313385, 'label': 'GP'}, {'score': 0.0986274927854538, 'label': 'GN'}] GN/2016_111026_0.jpg
+Misclassified image #49 [{'score': 0.789047122001648, 'label': 'GN'}, {'score': 0.21095289289951324, 'label': 'GP'}] GP/2015_103161_0.jpg
+Misclassified image #50 [{'score': 0.744559645652771, 'label': 'GN'}, {'score': 0.2554403245449066, 'label': 'GP'}] GP/2015_103161_1.jpg
+Misclassified image #51 [{'score': 0.9747733473777771, 'label': 'GN'}, {'score': 0.025226673111319542, 'label': 'GP'}] GP/2015_103161_2.jpg
+Misclassified image #52 [{'score': 0.7687466740608215, 'label': 'GN'}, {'score': 0.23125338554382324, 'label': 'GP'}] GP/2015_104336_0.jpg
+Misclassified image #53 [{'score': 0.7896614074707031, 'label': 'GN'}, {'score': 0.2103385329246521, 'label': 'GP'}] GP/2015_104336_1.jpg
+Misclassified image #54 [{'score': 0.8290312886238098, 'label': 'GN'}, {'score': 0.1709686815738678, 'label': 'GP'}] GP/2015_104336_2.jpg
+Misclassified image #55 [{'score': 0.5788050889968872, 'label': 'GN'}, {'score': 0.4211949408054352, 'label': 'GP'}] GP/2015_107051_0.jpg
+Misclassified image #56 [{'score': 0.5788050889968872, 'label': 'GN'}, {'score': 0.4211949408054352, 'label': 'GP'}] GP/2015_107829_2.jpg
+Misclassified image #57 [{'score': 0.6602078080177307, 'label': 'GN'}, {'score': 0.3397921919822693, 'label': 'GP'}] GP/2015_109565_0.jpg
+Misclassified image #58 [{'score': 0.9024142026901245, 'label': 'GN'}, {'score': 0.0975857749581337, 'label': 'GP'}] GP/2015_110374_0.jpg
+Misclassified image #59 [{'score': 0.9515952467918396, 'label': 'GN'}, {'score': 0.04840477183461189, 'label': 'GP'}] GP/2015_110374_1.jpg
+Misclassified image #60 [{'score': 0.9883974194526672, 'label': 'GN'}, {'score': 0.01160256564617157, 'label': 'GP'}] GP/2015_110374_2.jpg
+Misclassified image #61 [{'score': 0.9830024838447571, 'label': 'GN'}, {'score': 0.0169975683093071, 'label': 'GP'}] GP/2015_110374_3.jpg
+Misclassified image #62 [{'score': 0.7628440260887146, 'label': 'GN'}, {'score': 0.23715601861476898, 'label': 'GP'}] GP/2015_113517_0.jpg
+Misclassified image #63 [{'score': 0.9698536992073059, 'label': 'GN'}, {'score': 0.030146310105919838, 'label': 'GP'}] GP/2015_114018_1.jpg
+Misclassified image #64 [{'score': 0.9424476623535156, 'label': 'GN'}, {'score': 0.05755232274532318, 'label': 'GP'}] GP/2015_115812_0.jpg
+Misclassified image #65 [{'score': 0.8846593499183655, 'label': 'GN'}, {'score': 0.11534065008163452, 'label': 'GP'}] GP/2015_116485_1.jpg
+Elapsed Time:  265.97078561782837
+Total count of misclassified images: 65
+Accuracy: 93.4 %
