@@ -1,0 +1,78 @@
+python quantizer.py -mp $(pwd)/out/DEIT/1_2022-09-26-22-21-45/model/
+Resolving data files: 100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1000/1000 [00:00<00:00, 74313.07it/s]
+WARNING:datasets.builder:Using custom data configuration default-0457705da11e039f
+WARNING:datasets.builder:Reusing dataset imagefolder (/root/.cache/huggingface/datasets/imagefolder/default-0457705da11e039f/0.0.0/48efdc62d40223daee675ca093d163bcb6cb0b7d7f93eb25aebf5edca72dc597)
+100%|¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1/1 [00:00<00:00, 105.82it/s]
+WARNING:datasets.arrow_dataset:Loading cached processed dataset at /root/.cache/huggingface/datasets/imagefolder/default-0457705da11e039f/0.0.0/48efdc62d40223daee675ca093d163bcb6cb0b7d7f93eb25aebf5edca72dc597/cache-7de29a718a59cffc.arrow
+Misclassified image #1 [{'score': 0.8794257044792175, 'label': 'GP'}, {'score': 0.12057433277368546, 'label': 'GN'}] GN/2015_106542_2.jpg
+Misclassified image #2 [{'score': 0.959169864654541, 'label': 'GP'}, {'score': 0.040830098092556, 'label': 'GN'}] GN/2015_107284_1.jpg
+Misclassified image #3 [{'score': 0.5233928561210632, 'label': 'GP'}, {'score': 0.4766071140766144, 'label': 'GN'}] GN/2015_108032_1.jpg
+Misclassified image #4 [{'score': 0.9462888836860657, 'label': 'GP'}, {'score': 0.05371113866567612, 'label': 'GN'}] GN/2015_109763_0.jpg
+Misclassified image #5 [{'score': 0.9925280809402466, 'label': 'GP'}, {'score': 0.007471965625882149, 'label': 'GN'}] GN/2015_109763_1.jpg
+Misclassified image #6 [{'score': 0.9820014834403992, 'label': 'GP'}, {'score': 0.01799849234521389, 'label': 'GN'}] GN/2015_109763_2.jpg
+Misclassified image #7 [{'score': 0.9586941003799438, 'label': 'GP'}, {'score': 0.04130592569708824, 'label': 'GN'}] GN/2015_109763_3.jpg
+Misclassified image #8 [{'score': 0.9225572347640991, 'label': 'GP'}, {'score': 0.07744274288415909, 'label': 'GN'}] GN/2015_109763_4.jpg
+Misclassified image #9 [{'score': 0.9741613864898682, 'label': 'GP'}, {'score': 0.02583862654864788, 'label': 'GN'}] GN/2015_109763_5.jpg
+Misclassified image #10 [{'score': 0.8252345323562622, 'label': 'GP'}, {'score': 0.1747654229402542, 'label': 'GN'}] GN/2015_109925_1.jpg
+Misclassified image #11 [{'score': 0.823178768157959, 'label': 'GP'}, {'score': 0.1768212467432022, 'label': 'GN'}] GN/2015_110922_0.jpg
+Misclassified image #12 [{'score': 0.5678962469100952, 'label': 'GP'}, {'score': 0.43210381269454956, 'label': 'GN'}] GN/2015_110953_0.jpg
+Misclassified image #13 [{'score': 0.580080509185791, 'label': 'GP'}, {'score': 0.419919490814209, 'label': 'GN'}] GN/2015_110966_1.jpg
+Misclassified image #14 [{'score': 0.7626771330833435, 'label': 'GP'}, {'score': 0.2373228669166565, 'label': 'GN'}] GN/2015_110966_2.jpg
+Misclassified image #15 [{'score': 0.6846116781234741, 'label': 'GP'}, {'score': 0.3153882920742035, 'label': 'GN'}] GN/2015_111151_1.jpg
+Misclassified image #16 [{'score': 0.8034577369689941, 'label': 'GP'}, {'score': 0.19654232263565063, 'label': 'GN'}] GN/2015_111229_0.jpg
+Misclassified image #17 [{'score': 0.6727703213691711, 'label': 'GP'}, {'score': 0.32722970843315125, 'label': 'GN'}] GN/2015_111229_1.jpg
+Misclassified image #18 [{'score': 0.9246517419815063, 'label': 'GP'}, {'score': 0.07534829527139664, 'label': 'GN'}] GN/2015_111229_3.jpg
+Misclassified image #19 [{'score': 0.9490907788276672, 'label': 'GP'}, {'score': 0.05090918764472008, 'label': 'GN'}] GN/2015_111287_0.jpg
+Misclassified image #20 [{'score': 0.5568925142288208, 'label': 'GP'}, {'score': 0.443107545375824, 'label': 'GN'}] GN/2015_111861_0.jpg
+Misclassified image #21 [{'score': 0.5037194490432739, 'label': 'GP'}, {'score': 0.4962805211544037, 'label': 'GN'}] GN/2015_111923_1.jpg
+Misclassified image #22 [{'score': 0.6494770050048828, 'label': 'GP'}, {'score': 0.3505229949951172, 'label': 'GN'}] GN/2015_112502_0.jpg
+Misclassified image #23 [{'score': 0.7281016111373901, 'label': 'GP'}, {'score': 0.27189838886260986, 'label': 'GN'}] GN/2015_112502_2.jpg
+Misclassified image #24 [{'score': 0.9609320163726807, 'label': 'GP'}, {'score': 0.03906793147325516, 'label': 'GN'}] GN/2015_113184_2.jpg
+Misclassified image #25 [{'score': 0.56705242395401, 'label': 'GP'}, {'score': 0.43294757604599, 'label': 'GN'}] GN/2015_114062_0.jpg
+Misclassified image #26 [{'score': 0.721788763999939, 'label': 'GP'}, {'score': 0.27821123600006104, 'label': 'GN'}] GN/2015_114953_2.jpg
+Misclassified image #27 [{'score': 0.6442182660102844, 'label': 'GP'}, {'score': 0.35578179359436035, 'label': 'GN'}] GN/2015_115542_1.jpg
+Misclassified image #28 [{'score': 0.9390593767166138, 'label': 'GP'}, {'score': 0.06094059720635414, 'label': 'GN'}] GN/2015_117634_1.jpg
+Misclassified image #29 [{'score': 0.991199791431427, 'label': 'GP'}, {'score': 0.008800246752798557, 'label': 'GN'}] GN/2015_117634_2.jpg
+Misclassified image #30 [{'score': 0.5892356634140015, 'label': 'GP'}, {'score': 0.4107643663883209, 'label': 'GN'}] GN/2015_117862_0.jpg
+Misclassified image #31 [{'score': 0.9873096346855164, 'label': 'GP'}, {'score': 0.012690406292676926, 'label': 'GN'}] GN/2015_122407_1.jpg
+Misclassified image #32 [{'score': 0.569459080696106, 'label': 'GP'}, {'score': 0.43054088950157166, 'label': 'GN'}] GN/2015_122964_0.jpg
+Misclassified image #33 [{'score': 0.8421143293380737, 'label': 'GP'}, {'score': 0.15788570046424866, 'label': 'GN'}] GN/2015_123573_0.jpg
+Misclassified image #34 [{'score': 0.9535702466964722, 'label': 'GP'}, {'score': 0.04642971232533455, 'label': 'GN'}] GN/2015_123573_1.jpg
+Misclassified image #35 [{'score': 0.7314254641532898, 'label': 'GP'}, {'score': 0.2685745656490326, 'label': 'GN'}] GN/2015_123573_2.jpg
+Misclassified image #36 [{'score': 0.5849228501319885, 'label': 'GP'}, {'score': 0.4150770902633667, 'label': 'GN'}] GN/2015_123740_0.jpg
+Misclassified image #37 [{'score': 0.9734048247337341, 'label': 'GP'}, {'score': 0.02659521996974945, 'label': 'GN'}] GN/2015_123740_1.jpg
+Misclassified image #38 [{'score': 0.9949519634246826, 'label': 'GP'}, {'score': 0.0050480361096560955, 'label': 'GN'}] GN/2015_123740_2.jpg
+Misclassified image #39 [{'score': 0.8971843123435974, 'label': 'GP'}, {'score': 0.10281563550233841, 'label': 'GN'}] GN/2015_125317_0.jpg
+Misclassified image #40 [{'score': 0.8116655945777893, 'label': 'GP'}, {'score': 0.1883344054222107, 'label': 'GN'}] GN/2015_125317_2.jpg
+Misclassified image #41 [{'score': 0.522575855255127, 'label': 'GP'}, {'score': 0.47742417454719543, 'label': 'GN'}] GN/2015_126082_1.jpg
+Misclassified image #42 [{'score': 0.6342943906784058, 'label': 'GP'}, {'score': 0.3657056391239166, 'label': 'GN'}] GN/2015_126082_2.jpg
+Misclassified image #43 [{'score': 0.7377078533172607, 'label': 'GP'}, {'score': 0.26229214668273926, 'label': 'GN'}] GN/2015_127196_0.jpg
+Misclassified image #44 [{'score': 0.7777547836303711, 'label': 'GP'}, {'score': 0.2222452163696289, 'label': 'GN'}] GN/2015_127196_1.jpg
+Misclassified image #45 [{'score': 0.9773494601249695, 'label': 'GP'}, {'score': 0.022650599479675293, 'label': 'GN'}] GN/2015_127214_1.jpg
+Misclassified image #46 [{'score': 0.9632431268692017, 'label': 'GP'}, {'score': 0.036756888031959534, 'label': 'GN'}] GN/2015_127214_2.jpg
+Misclassified image #47 [{'score': 0.7112841606140137, 'label': 'GP'}, {'score': 0.2887158691883087, 'label': 'GN'}] GN/2016_109035_2.jpg
+Misclassified image #48 [{'score': 0.8978185653686523, 'label': 'GP'}, {'score': 0.10218143463134766, 'label': 'GN'}] GN/2016_109035_3.jpg
+Misclassified image #49 [{'score': 0.8753676414489746, 'label': 'GP'}, {'score': 0.1246323511004448, 'label': 'GN'}] GN/2016_109627_2.jpg
+Misclassified image #50 [{'score': 0.6494181156158447, 'label': 'GP'}, {'score': 0.3505818545818329, 'label': 'GN'}] GN/2016_109873_3.jpg
+Misclassified image #51 [{'score': 0.7852330207824707, 'label': 'GP'}, {'score': 0.21476700901985168, 'label': 'GN'}] GN/2016_109922_0.jpg
+Misclassified image #52 [{'score': 0.927791178226471, 'label': 'GP'}, {'score': 0.07220885157585144, 'label': 'GN'}] GN/2016_109922_2.jpg
+Misclassified image #53 [{'score': 0.6194489598274231, 'label': 'GP'}, {'score': 0.3805510699748993, 'label': 'GN'}] GN/2016_111026_0.jpg
+Misclassified image #54 [{'score': 0.9942129254341125, 'label': 'GN'}, {'score': 0.005787054542452097, 'label': 'GP'}] GP/2015_103161_0.jpg
+Misclassified image #55 [{'score': 0.994860053062439, 'label': 'GN'}, {'score': 0.005139966960996389, 'label': 'GP'}] GP/2015_103161_1.jpg
+Misclassified image #56 [{'score': 0.9948327541351318, 'label': 'GN'}, {'score': 0.005167250521481037, 'label': 'GP'}] GP/2015_103161_2.jpg
+Misclassified image #57 [{'score': 0.9321651458740234, 'label': 'GN'}, {'score': 0.06783492118120193, 'label': 'GP'}] GP/2015_104336_0.jpg
+Misclassified image #58 [{'score': 0.851640522480011, 'label': 'GN'}, {'score': 0.1483595371246338, 'label': 'GP'}] GP/2015_104336_1.jpg
+Misclassified image #59 [{'score': 0.9604184627532959, 'label': 'GN'}, {'score': 0.039581555873155594, 'label': 'GP'}] GP/2015_104336_2.jpg
+Misclassified image #60 [{'score': 0.8742031455039978, 'label': 'GN'}, {'score': 0.12579679489135742, 'label': 'GP'}] GP/2015_109565_0.jpg
+Misclassified image #61 [{'score': 0.6382057070732117, 'label': 'GN'}, {'score': 0.3617943227291107, 'label': 'GP'}] GP/2015_110374_0.jpg
+Misclassified image #62 [{'score': 0.6997238397598267, 'label': 'GN'}, {'score': 0.30027616024017334, 'label': 'GP'}] GP/2015_110374_1.jpg
+Misclassified image #63 [{'score': 0.992691695690155, 'label': 'GN'}, {'score': 0.0073083387687802315, 'label': 'GP'}] GP/2015_110374_2.jpg
+Misclassified image #64 [{'score': 0.9903801679611206, 'label': 'GN'}, {'score': 0.00961990561336279, 'label': 'GP'}] GP/2015_110374_3.jpg
+Misclassified image #65 [{'score': 0.9937719702720642, 'label': 'GN'}, {'score': 0.006228023674339056, 'label': 'GP'}] GP/2015_114018_1.jpg
+Misclassified image #66 [{'score': 0.6452671885490417, 'label': 'GN'}, {'score': 0.35473278164863586, 'label': 'GP'}] GP/2015_114451_0.jpg
+Misclassified image #67 [{'score': 0.7179195880889893, 'label': 'GN'}, {'score': 0.28208041191101074, 'label': 'GP'}] GP/2015_114451_1.jpg
+Misclassified image #68 [{'score': 0.9829511046409607, 'label': 'GN'}, {'score': 0.0170489139854908, 'label': 'GP'}] GP/2015_115812_0.jpg
+Misclassified image #69 [{'score': 0.8317893147468567, 'label': 'GN'}, {'score': 0.16821064054965973, 'label': 'GP'}] GP/2015_115812_2.jpg
+Elapsed Time:  257.98129510879517
+Total count of misclassified images: 69
+Accuracy: 93.0 %
