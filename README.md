@@ -17,7 +17,7 @@ docker pull pytorch/pytorch:1.13.0-cuda11.6-cudnn8-devel
 
 Go into the container and install addtional python packages
 ```
-pip install pillow "optimum[onnxruntime-gpu]" evaluate[evaluator] sklearn mkl-include mkl --upgrade
+pip install pillow "optimum[onnxruntime-gpu]" evaluate[evaluator] sklearn mkl-include mkl --upgrade scikit-learn torchvision fairscale deepspeed transformers torch transformers[onnx] optimum[onnxruntime]
 ```
 
 ## Overview
