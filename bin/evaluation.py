@@ -10,7 +10,7 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('-m', '--model_name', dest='model_name', choices=['BEIT','CONVNEXT','DEIT','MOBILEVIT','POOLFORMER','RESNET','SWIN','VIT'], required=True)
 parser.add_argument('-s', '--model_size', dest='model_size', choices=['MIN','MAX'], required=True)
-parser.add_argument('-d', '--', dest='dataset', choices=['UMMDS','DIBAS'], required=True)
+parser.add_argument('-d', '--dataset', dest='dataset', choices=['UMMDS','DIBAS'], required=True)
 parser.add_argument('-e', '--epoch', dest='epoch', required=True)
 args = parser.parse_args()
 '''
