@@ -48,7 +48,7 @@ optimum-cli export onnx --model MODEL_INPUT_PATH/ MODEL_OUTPUT_PATH/
 python bin/evaluation.py --model_name MOBILEVIT --model_size MAX --dataset UMMDS --epoch 1
 ```
 ## Bibtex
-To be updated...
+Kim HE, Maros ME, Miethke T, Kittel M, Siegel F, Ganslandt T. Lightweight Visual Transformers Outperform Convolutional Neural Networks for Gram-Stained Image Classification: An Empirical Study. Biomedicines. 2023 Apr 30;11(5):1333.
 
 ## Changelog
 2023/04/14 - Initial commit
